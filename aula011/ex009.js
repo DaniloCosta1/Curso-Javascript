@@ -1,14 +1,16 @@
 
 
-function checcar() {
+function checar() {
+
       var nac = window.document.getElementById('origem').value
+      
 
-      var resultado = window.document.getElementById('div#resp')
+      var resultado = window.document.getElementById('resp')
 
-      if(nac == "brasil"){
-            resultado.innerHTML = 'brasileiro'
+      if(nac != 'brasil'){
+            resultado.innerHTML = 'estrangeiro'
       }
       else{
-            resultado.innerHTML = 'estrangeiro'
+            resultado.innerHTML = 'brasileiro'
       }
 }
