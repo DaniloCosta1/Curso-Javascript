@@ -12,8 +12,8 @@ function verificar(){
             var fsex = document.getElementsByName('sexo')
             var idade = ano - Number(fano.value)
             var genero = ''
-            var img = document.createElement('img')
-            img.setAttribute('id', 'foto')
+            var img = document.getElementById('foto')
+            
             
 
             if(fsex[0].checked){
@@ -36,7 +36,7 @@ function verificar(){
                   genero = 'Mulher'
 
                   if(idade >= 0 && idade < 10){
-                        img.setAttribute('src', 'imagens/babygirl.png.png')
+                        img.setAttribute('src', 'imagens/babygirl.png')
                   }
                   else if( idade < 21 ){
                         img.setAttribute('src', 'imagens/garota.png')

@@ -23,6 +23,12 @@ section{
 
 div#res{
       text-align: center;
+      margin: auto;
+}
+
+img#foto{
+      display: block;
+      margin: auto;
 }
 
 footer{
