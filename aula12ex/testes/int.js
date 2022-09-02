@@ -1,2 +1,5 @@
-var titulo = window.document.createElement('img')
-titulo.setAttribute('src', 'imgqqr.jpg')
+var c = 6
+while( c < 6){
+      console.log('danilo')
+      c++
+}
